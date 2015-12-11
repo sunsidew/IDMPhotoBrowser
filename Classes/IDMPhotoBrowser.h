@@ -40,6 +40,11 @@
 @property (nonatomic, weak) UIImage *rightArrowImage, *rightArrowSelectedImage;
 
 // View customization
+
+// customized_sunsidew.yjw@gmail.com
+@property (nonatomic) UIToolbar *toolbar;
+@property (nonatomic) NSUInteger currentPageIndex;
+
 @property (nonatomic) BOOL displayDoneButton;
 @property (nonatomic) BOOL useWhiteBackgroundColor;
 @property (nonatomic, weak) UIImage *doneButtonImage;
